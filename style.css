@@ -1,0 +1,30 @@
+.wrapper {
+    text-align: center;
+}
+
+input {
+    border-radius: 15px;
+    background-color: #dcffff;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+button {
+    border-radius: 20px;
+    background-color: #c0ffff;
+    width: 10%;
+    height: 6rem;
+    font-size: 45px;
+    margin: 0.5%;
+}
+@media (max-width: 1215px) {
+button{font-size: 25px}
+    input{font-size: 25px}
+}
+@media (max-width: 710px) {
+    button{font-size: 15px}
+    input{font-size: 15px}
+}
